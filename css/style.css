@@ -1,0 +1,93 @@
+body{
+   background-color: rgb(159, 214, 159);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 24px;
+    width: 800px;
+    height: 480px;
+    border: 1px solid rgba(49, 43, 43, 0.308);   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(49, 43, 43, 0.308);
+}
+
+.left{
+    display: flex;
+    
+}
+
+.left img{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.left p{
+    margin-top: 0;
+}
+.right img{
+    width: 20px;
+}
+
+.section{
+    display: flex;
+    
+}
+.sectionA img{
+    margin-top: 32px;
+    width: 264px;
+    padding-right: 64px;
+    border-right: 1px solid rgba(49, 43, 43, 0.308);
+}
+
+.sectionB{
+    padding-left: 24px;
+}
+
+.sectionB-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    border: 1px solid rgba(49, 43, 43, 0.308);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.2s ease;
+}
+
+.p1:hover{
+    background-color: rgb(159, 214, 159);
+    color: white;
+}
+
+.p2{
+    border: 1px solid rgba(49, 43, 43, 0.308);
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.2s ease;
+
+}
+
+.p2:hover{
+    background-color: rgb(159, 214, 159);
+    color: white;
+}
+
